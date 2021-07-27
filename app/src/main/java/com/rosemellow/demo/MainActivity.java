@@ -6,9 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.rosemellow.alternatecreditscore.SplashActivity;
-import com.rosemellow.alternatecreditscore.TermsandConditionsActivity;
-
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
 
 
-                startActivity(new Intent(MainActivity.this, TermsandConditionsActivity.class));
+               // startActivity(new Intent(MainActivity.this, TermsandConditionsActivity.class));
                 finish();
 
 
